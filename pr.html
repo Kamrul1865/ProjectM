@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html css project</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    
+    <link rel="stylsheet" type="text/css" href="style.css">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: auto;
+    margin: 0 auto;
+    width: 960px;
+
+
+}
+.tab{
+    width: 960px;
+    height: auto;
+    background: black;
+}
+.tab ul li{
+list-style: none;
+display: inline-block;
+position: relative;
+}
+.tab ul li a{
+    padding: 20px 35px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.tab ul li a:hover{
+    color: yellow;
+    background: tomato;
+}
+.tab ul li ul{
+    position: absolute;
+    background: black;
+    left: -9999px;
+}
+.tab ul li:hover ul{
+    left: 0px;
+}
+.tab ul li ul li{
+    width: 200px;
+    border-bottom: 1px solid #fff;
+}
+.banner1{
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.banner2{
+    padding: 100px;
+    text-align: center;
+}
+.banner2 button{
+font-size: 20px;
+text-transform: uppercase;
+font-weight: bold;
+padding: 20px;
+border: 0;
+background-color: blue;
+color: white ;
+margin: 0px 8px;
+
+}
+.about4 img{
+    width: 200px;
+    height: auto;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 10px 0px black;
+}
+.about5{
+    width: 520px;
+    height: auto;
+    padding: 0px 20px;
+}
+.row{
+    overflow: auto;
+}
+.col{
+    float: left;
+}
+.about1{
+    background: lightblue;
+    padding: 40px 0px;
+}
+.about2 h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+
+}
+.per{
+    font-size: 16px;
+    color: gray;
+}
+.about2{
+
+}
+.ab{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.km{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.service{
+    width: 280px;
+    height: auto;
+    border: 1px solid #fff;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.servicesec{
+    background: #b7bbb2;
+    padding: 40px 0px;
+    margin-top: 20px;
+}
+.icon i{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    transition: .5s;
+}
+.icon i:hover{
+    color: yellow;
+    transform: scale(.8);
+
+}
+.service h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.service p{
+    font-size: 15px;
+    line-height: 22px;
+    color: gray;
+    padding: 0px 15px;
+
+}
+.contuct{
+    background: #fff;
+    padding: 15px 15px 15px 80px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 0px 8px;
+}
+.iconc i{
+    position: absolute;
+    float: left;
+    height: 50px;
+    width: 50px;
+    top: 8px;
+    left: 15px;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    transition: .5s;
+
+}
+.iconc i:hover{
+    color: yellow;
+    transform: scale(.8);
+
+}
+.contuctsec{
+    background: #cacaca;
+    padding: 40px 0px;
+    margin-top: 20px;
+}
+
+.contuctform{
+    margin: 0 auto;
+    width: 620px;
+    height: auto;
+    margin-top: 30px;
+}
+.inputtag input{
+   font-size: 20px;
+   text-transform: capitalize;
+   padding: 10px 10px;
+   width: 80%;
+   border: 0px;
+   margin: 8px 0px;
+}
+.inputtag textarea{
+    width: 518px;
+    height: auto;
+    border: 0;
+   
+}
+.submit{
+    width: 84%;
+    padding: 10px 0px;
+    background: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 4px;
+    border: 0;
+}
+footer{
+    background: #000;
+    color: #ffffff;
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+    padding: 30px 0px;
+}
+.fotericon{
+    float:right
+}
+.fotericon i{
+    font-size: 30px;
+    padding: 0px 10px;
+    transition: .5s;
+}
+.fotericon i:hover{
+    color: yellow;
+    transform: scale(.8);
+
+
+}
+.fotertext{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px 20px;
+
+}
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <div class="tab">
+            <ul>
+                <li><a href="#"> Home </a></li>
+                <li><a href="#"> About </a></li>
+                <li><a href="#"> Service </a></li>
+                <li><a href="#"> protfolio </a>
+                    <ul>
+                         <li><a href="#"> Home </a></li>
+                        <li><a href="#"> About </a></li>
+                         <li><a href="#"> Service </a></li>
+                        <li><a href="#"> protfolio </a></li>
+                        <li><a href="#"> Blog </a></li>
+                        <li><a href="#"> Contact </a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#"> Blog </a></li>
+                <li><a href="#"> Contact </a></li>
+
+
+            </ul>
+        </div>
+
+        <div class="banner1" style="background-image: url(pic/p1.jpg);">
+            <div class="banner2">
+                <button type="submit">clear</button>
+                <button type="submit">mordern</button>
+                <button type="submit">responsive</button>
+
+
+
+            </div>
+
+        </div>
+        <div class="about1">
+
+                <div class="about2">
+                    <h2 class="ab">about us</h2>
+                 </div>
+
+                 <div class="about3">
+                         <div class="row">
+                           <div class="col">
+                                <div class="about4">
+                                <img src="pic/p2.jpg">
+   
+                           </div>
+                           </div>
+                           <div class="col">
+                            <div class="about5">
+                                <h2 class="km"> Kamrul Hasan</h2>
+                                <p class="per">
+                                    Clita et et kasd justo accusam amet, sea kasd takimata voluptua dolores ea, ut sit takimata eos amet clita consetetur vero dolor takimata. Dolor et et diam et elitr clita duo ipsum kasd. Vero clita rebum dolor lorem et, magna et gubergren gubergren ea sit. Sit sed sadipscing voluptua dolor elitr, sed no erat ipsum labore, amet nonumy tempor consetetur sea consetetur. Aliquyam duo invidunt vero lorem vero at ipsum, dolores aliquyam est dolor et.
+                                </p>
+    
+                            </div>
+                           </div>
+                    </div>
+
+                         </div>
+
+        </div>
+        
+        <div class="servicesec">
+            <div class="about2">
+                <h2 class="ab">our service</h2>
+             </div>
+
+             <div class="service">
+                <div class="icon">
+                    <i class="fab fa-html5"></i>
+                </div> 
+                   
+                
+                <h3>Web design</h3>
+                <P>
+                    Sadipscing at duo est dolore dolores sadipscing ea clita diam, ut no tempor sea kasd kasd sed sit invidunt. Sed dolores sit eos dolore erat.
+                </P>
+
+             </div>
+
+             
+             <div class="service">
+                <div class="icon">
+                    <i class="fab fa-php"></i>
+                </div> 
+                   
+                
+                <h3>Web development</h3>
+                <P>
+                    Sadipscing at duo est dolore dolores sadipscing ea clita diam, ut no tempor sea kasd kasd sed sit invidunt. Sed dolores sit eos dolore erat.
+                </P>
+
+             </div>
+              
+
+            
+             <div class="service">
+                <div class="icon">
+                    <i class="fas fa-camera"></i>
+                </div> 
+                   
+                
+                <h3>photography</h3>
+                <P>
+                    Sadipscing at duo est dolore dolores sadipscing ea clita diam, ut no tempor sea kasd kasd sed sit invidunt. Sed dolores sit eos dolore erat.
+                </P>
+
+             </div>
+             <div class="service">
+                <div class="icon">
+                    <i class="fas fa-handshake"></i>
+                </div> 
+                   
+                
+                <h3>branding</h3>
+                <P>
+                    Sadipscing at duo est dolore dolores sadipscing ea clita diam, ut no tempor sea kasd kasd sed sit invidunt. Sed dolores sit eos dolore erat.
+                </P>
+
+             </div>
+             <div class="service">
+                <div class="icon">
+                    <i class="fab fa-html5"></i>
+                </div> 
+                   
+                
+                <h3>Web design</h3>
+                <P>
+                    Sadipscing at duo est dolore dolores sadipscing ea clita diam, ut no tempor sea kasd kasd sed sit invidunt. Sed dolores sit eos dolore erat.
+                </P>
+
+             </div>
+
+
+             <div class="service">
+                <div class="icon">
+                    <i class="fab fa-apple"></i>
+                </div> 
+                   
+                
+                <h3>apple</h3>
+                <P>
+                    Sadipscing at duo est dolore dolores sadipscing ea clita diam, ut no tempor sea kasd kasd sed sit invidunt. Sed dolores sit eos dolore erat.
+                </P>
+
+             </div>
+
+
+
+                 </div>
+
+                 
+        </div>
+
+        <div class="contuctsec">
+            <div class="about2">
+                <h2 class="ab">contuct us</h2>
+             </div>
+             <div class="contuct">
+                 <div class="iconc">
+                    <i class="fas fa-phone"></i>                 </div>
+                 <div class="text">
+                     <p>01818556218</p>
+                     <p>01839220665</p>
+                     
+                 </div>
+
+             </div>
+
+             <div class="contuct">
+                <div class="iconc">
+                   <i class="fas fa-envelope"></i>                 </div>
+                <div class="text">
+                    <p>hasan@gmail.com</p>
+                    <p>kamrul@gmailcom</p>
+                    
+                </div>
+
+            </div>
+            <div class="contuct">
+                <div class="iconc">
+                   <i class="fas fa-map-marker-alt"></i>                 </div>
+                <div class="text">
+                    <p>Moneyabad</p>
+                    <p>satkania</p>
+                    
+                </div>
+
+            </div>
+
+            <div>
+                <form>
+                    <div class="contuctform">
+
+                
+                        <div class="inputtag">                        <input type="text" placeholder="your name">
+                       
+                        </div>
+                       
+                        <div class="inputtag">
+                        <input type="text" placeholder="your email">
+
+                        </div>
+                        
+
+                        <div class="inputtag">
+                        <input type="text" placeholder="subject">
+
+                        </div>
+                        
+                        <div class="inputtag">
+                            <textarea rows="20" cols="50">
+
+                            </textarea>
+                        </div>
+
+                        <button class="submit">
+                            submit
+                        </button>
+
+                       
+
+
+
+                    </div>
+
+
+
+                </form>
+
+
+            </div>
+             
+        </div>
+
+
+
+    </header>
+
+<footer>
+    <div class="fotertext">
+        <p> copy right by &copy Kamrul Hasan</p>
+
+    </div>
+
+    <div class="fotericon">
+
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkdin"></i>
+    </div>
+
+
+</footer>
+
+</body>
+</html>
